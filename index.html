@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Criando Usuarios</h2>
+    <form >
+        <label for="name">Insira o nome do usuário: </label>
+        <input type="text" name="name" id="name">
+        <br>
+        <label for="email">Insira o Email do usuário: </label>
+        <input type="email" name="email" id="email">
+        <br>
+        <label for="password">Insira a senha do usuário: </label>
+        <input type="password" name="password" id="password">
+        <br>
+        <button type="submit" id="send">Criar Usuario</button>
+    </form>
+    
+
+
+    <div >
+        <h1>Listando Usuarios</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Email</th>
+                        <th>Senha</th>
+                    </tr>
+                </thead>
+                <tbody id="table">
+                    
+                </tbody>
+            </table>
+    </div>
+    
+
+    <script src="./src/script.js"></script>
+    <script>
+        new Users();
+    </script>
+</body>
+</html>
