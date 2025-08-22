@@ -1,0 +1,42 @@
+# 📚 Academic Task - User Registration with Express.js
+
+📄 Description
+Academic task using **Node.js** and **Express.js** that registers users (name, email, and password) in an in-memory list through an HTML form (POST) and dynamically displays the list with JavaScript.
+
+
+# 🚀 Features
+- HTML page for user registration.  
+- Data sent to the server via **POST**.  
+- Users stored in an **in-memory list**.  
+- Dynamic rendering of the user list with **JavaScript (script.js)**.  
+
+
+# 📂 Project Structure
+📦 express-users-project
+┣ 📜 server.js # Express server
+┣ 📜 index.html # User registration and listing page
+┣ 📜 script.js # Dynamic rendering logic
+┗ 📜 README.md # Project documentation
+
+
+# 🛠️ Technologies Used
+- [Node.js](https://nodejs.org/)  
+- [Express.js](https://expressjs.com/)  
+- HTML5  
+- JavaScript  
+
+
+# ▶️ How to Run the Project
+
+1. Clone this repository:
+
+git clone https://github.com/yourusername/express-users-project.git
+
+Install dependencies: npm install
+
+Start the server: node src/server.js
+
+Open in your browser: http://localhost:3000
+
+# 👨‍🎓 Note
+This project was developed for academic purposes as a practical exercise to learn basic web development concepts with Node.js, Express.js, and dynamic integration with JavaScript.
